@@ -3,7 +3,7 @@ body{
 	padding-left: 1%;
 	padding-right: 1%;
 	font-size: 14px;
-	margin: 0px;
+	margin: 0;
 }
 
 * {
@@ -19,66 +19,80 @@ body{
 	background-color: #c0c0c0;
 	border: 1px solid #000000;
 	padding: 0px 0px 1% 1%;
-	margin: 1% 0% 0% 1%;
 	float: left;
+	position: relative;
 }
-.menu-item:nth-of-type(1) .menu-item-title{
+section:nth-of-type(1) .menu-item-title{
 	background-color: #ffaa00;
 }
-.menu-item:nth-of-type(2) .menu-item-title{
+section:nth-of-type(2) .menu-item-title{
 	background-color: #aaff00;
 }
-.menu-item:nth-of-type(3) .menu-item-title{
+section:nth-of-type(3) .menu-item-title{
 	background-color: #aa00ff;
 }
 .menu-item p{
 	float: left;
+	clear: both;
 }
 .menu-item-title{
 	background-color: white;
 	border: 1px solid #000000;
-	border-right: none;
-	border-top: none;
 	display: block;
 	float: right;
-	margin-top: 0%;
-	margin-bottom: 1%;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.25em;
+	position: relative;
+	margin: 0;
+	top: -1px;
+	right: -1px;
 }
 
 @media (min-width: 992px) {
+	.d-12, .d-6, .d-4{
+		float: left;
+		padding: 1%;
+	}
 	.d-12{
-		width: 99%;
+		width: 100%;
+		
 	}
 	.d-6{
-		width: 48%;
+		width: 50%;
 	}
 	.d-4{
-		width:32.33%
+		width:33.33%;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	.t-12, .t-6, .t-4{
+		float: left;
+		padding: 1%;
+	}
 	.t-12{
-		width: 99%;
+		width: 100%;
 	}
 	.t-6{
-		width: 49%;
+		width: 50%;
 	}
 	.t-4{
-		width:32.33%
+		width:33.33%
 	}
 }
 
-@media (man-width: 767px) {
+@media (max-width: 767px) {
+	.m-12, .m-6, .m-4{
+		float: left;
+		padding: 1%;
+	}
 	.m-12{
-		width: 98%;
+		width: 100%;
 	}
 	.m-6{
-		width: 49%;
+		width: 50%;
 	}
 	.t-4{
-		width:32.33%
+		width:33.33%
 	}
 }

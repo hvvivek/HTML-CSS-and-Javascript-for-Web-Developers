@@ -1,0 +1,58 @@
+body{
+	font-family:Helvetica;
+	padding-left: 1%;
+	padding-right: 1%;
+	font-size: 14px;
+	margin: 0px;
+}
+
+.heading{
+	text-align: center;
+}
+.menu-item{
+	background-color: #a0a0a0;
+	border: 2px solid #000000;
+	padding: 0px 0px 1% 1%;
+	margin: 1% 1% 1% 1%;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.menu-item-title{
+	background-color: white;
+	border: 2px solid #000000;
+	border-right: none;
+	border-top: none;
+	display: block;
+	float: right;
+	margin-top: 0%;
+	padding: 1% 1% 1% 1%;
+}
+
+@media (min-width: 992px) {
+	.d-12{
+		width: 98%;
+	}
+	.d-6{
+		width: 48%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.t-12{
+		width: 98%;
+	}
+	.t-6{
+		width: 48%;
+	}
+}
+
+@media (man-width: 767px) {
+	.m-12{
+		width: 98%;
+	}
+	.m-6{
+		width: 48%;
+	}
+}

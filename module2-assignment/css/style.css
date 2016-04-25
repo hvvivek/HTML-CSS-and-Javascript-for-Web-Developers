@@ -6,6 +6,11 @@ body{
 	margin: 0px;
 }
 
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 .heading{
 	text-align: center;
 	font-size: 1.75em;
@@ -16,9 +21,6 @@ body{
 	padding: 0px 0px 1% 1%;
 	margin: 1% 0% 0% 1%;
 	float: left;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
 }
 .menu-item:nth-of-type(1) .menu-item-title{
 	background-color: #ffaa00;

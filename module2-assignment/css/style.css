@@ -8,10 +8,11 @@ body{
 
 .heading{
 	text-align: center;
+	font-size: 1.75em;
 }
 .menu-item{
-	background-color: #a0a0a0;
-	border: 2px solid #000000;
+	background-color: #c0c0c0;
+	border: 1px solid #000000;
 	padding: 0px 0px 1% 1%;
 	margin: 1% 0% 1% 1%;
 	float: left;
@@ -19,12 +20,21 @@ body{
 	-moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+.menu-item:nth-of-type(1) .menu-item-title{
+	background-color: #ffaa00;
+}
+.menu-item:nth-of-type(2) .menu-item-title{
+	background-color: #aaff00;
+}
+.menu-item:nth-of-type(3) .menu-item-title{
+	background-color: #aa00ff;
+}
 .menu-item p{
 	float: left;
 }
 .menu-item-title{
 	background-color: white;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	border-right: none;
 	border-top: none;
 	display: block;
@@ -32,6 +42,7 @@ body{
 	margin-top: 0%;
 	margin-bottom: 1%;
 	padding: 1% 1% 1% 1%;
+	font-size: 1.25em;
 }
 
 @media (min-width: 992px) {

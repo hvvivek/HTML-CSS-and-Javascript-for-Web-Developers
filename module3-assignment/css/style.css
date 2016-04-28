@@ -1,3 +1,4 @@
+/*GLOBAL STYLES*/
 body{
 	font-family: 'Lato', sans-serif;	
 	padding: 0 0 auto;
@@ -5,15 +6,14 @@ body{
 	margin: 0;
 	color: #000000;
 }
-
 * {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-.pull-center{
-	text-align: center;
-}
+/*END GLOBAL STYLES*/
+
+/*START NAVBAR*/
 .navbar{
 	background-color: #111111;
 	border-radius: 0px;
@@ -23,7 +23,6 @@ body{
 	border-bottom: 1px solid #000000
 }
 .navbar-default .navbar-toggle{
-	color: #ffffff;
 	border-radius: 0;
 }
 .navbar-default .navbar-collapse{
@@ -32,6 +31,9 @@ body{
 .navbar-default .navbar-toggle .icon-bar{
 	background-color:#ffffff;
 }
+/*END NAVBAR*/
+
+/*START BRAND NAME*/
 #business-brand{
 	color: #ffffff;
 	font-size: 2.5em;
@@ -39,7 +41,9 @@ body{
 	margin-top: auto;
 	margin-bottom: auto;
 }
+/*END BRAND NAME*/
 
+/*START NAVIGATION DROPDOWN*/
 #menu-list{
 	margin-bottom: 0;
 	margin-top: 0;
@@ -54,10 +58,14 @@ body{
 	background-color: #303030;
 	color: #ffffff;
 }
-
 #toggle-button:hover, #toggle-button:active, #toggle-button:focus{
 	background-color: #303030;
 }
+/*END NAVIGATION DROPDOWN*/
+
+/*START CONTENT*/
+
+/*HEADING*/
 #heading{
 	margin-top: 1%;
 	font-size: 1em;
@@ -67,11 +75,37 @@ body{
 	font-weight: 900;
 	font-size: 1.7em;
 }
+/*END HEADING*/
+
+/*CONTENT*/
 #content{
 	background-color: #a0a0a0;
+	margin-bottom: 3em;
 }
 #content .content-title{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 1.5em;
 }
+/*END CONTENT*/
+
+/*CONTENT - OPTIONAL*/
+.food-item{
+	margin-bottom: 3em;
+}
+.food-item section{
+	padding: 1em;
+	background-color: #a0a0a0;
+}
+.food-item .content-title{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.food-item .link-to-top{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	color: #000000;
+}
+/*END CONTENT OPTIONAL*/

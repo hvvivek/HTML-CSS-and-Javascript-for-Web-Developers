@@ -1,0 +1,77 @@
+body{
+	font-family: 'Lato', sans-serif;	
+	padding: 0 0 auto;
+	font-size: 14px;
+	margin: 0;
+	color: #000000;
+}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.pull-center{
+	text-align: center;
+}
+.navbar{
+	background-color: #111111;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover{
+	color:#000000;
+	border-bottom: 1px solid #000000
+}
+.navbar-default .navbar-toggle{
+	color: #ffffff;
+	border-radius: 0;
+}
+.navbar-default .navbar-collapse{
+	border-color: #000000;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#ffffff;
+}
+#business-brand{
+	color: #ffffff;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#menu-list{
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 1.3em;
+	background-color: #ffffff;
+}
+#menu-list a:focus, #menu-list a:active{
+	background-color: #000000;
+	color: #ffffff;
+}
+#menu-list a:hover{
+	background-color: #303030;
+	color: #ffffff;
+}
+
+#toggle-button:hover, #toggle-button:active, #toggle-button:focus{
+	background-color: #303030;
+}
+#heading{
+	margin-top: 1%;
+	font-size: 1em;
+}
+#heading .title{
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 1.7em;
+}
+#content{
+	background-color: #a0a0a0;
+}
+#content .content-title{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
